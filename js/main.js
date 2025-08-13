@@ -65,6 +65,7 @@
 
             // 3D tilt effect for service cards
             document.querySelectorAll('.tilt-card').forEach(card => {
+                card.style.willChange = 'transform';
                 card.addEventListener('mousemove', handleTilt);
                 card.addEventListener('mouseleave', resetTilt);
             });
