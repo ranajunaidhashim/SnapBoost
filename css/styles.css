@@ -693,6 +693,12 @@ section {
 }
 
 /* Responsive Design */
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .hero-title {
+    font-size: 3.8rem; /*3.5rem = 56px */
+  }
+}
 @media (max-width: 768px) {
   .nav-links {
     display: none;
